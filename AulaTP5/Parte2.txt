@@ -1,0 +1,14 @@
+2.
+
+a) A complexidade temporal do algoritmo é cúbica (largura*altura*ntabs)->O(x^3); dado que o número de
+iterações depende da largura, altura e de ntab, sendo o total de iterações largura*altura*ntab;
+A complexidade espacial é constante.
+
+b) A complexidade temporal do algoritmo é logarítmica pois são feitas divisões sucessivas do vector
+para a sua análise.
+
+Procurar o 7 no vector 1 2 3 4 5 6 7 8 9 , vamos considerar | como os limites de left e right e [] o meio.
+
+| 1 2 3 4 [5] 6 7 8 9| -> Altera left para o 6
+| 6 [7] 8 9 | -> Encontrou o 7 no middle e sai
+
